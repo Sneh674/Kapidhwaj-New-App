@@ -5,8 +5,8 @@ import LinearGradient from 'react-native-linear-gradient';
 
 import { useAppSelector } from '../../redux/store/themeStore';
 
-import { styles as lightCreateFolderStyles } from '../../styles/onboardingStyles/createFolder/createFolderLight';
-import { styles as darkCreateFolderStyles } from '../../styles/onboardingStyles/createFolder/createFolderDark';
+import { styles as lightCreateFolderStyles } from '../../styles/onboardingStyles/onboardingLight';
+import { styles as darkCreateFolderStyles } from '../../styles/onboardingStyles/onboardingDark';
 
 const CreateFolder = ({ navigation }) => {
     // const theme = 'light';
