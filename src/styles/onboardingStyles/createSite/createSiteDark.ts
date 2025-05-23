@@ -17,6 +17,7 @@ export const styles = StyleSheet.create({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'space-between',
+        backgroundColor: 'black',
         paddingTop: 65,
         paddingBottom: 40,
     },

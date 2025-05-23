@@ -7,10 +7,19 @@ export const styles = StyleSheet.create({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'space-between',
-        paddingVertical: 60,
-        paddingBottom: 40,
+        // paddingTop: 65,
         backgroundColor: '#121212', // dark background
         paddingHorizontal: 20,
+    },
+    gradientContainer: {
+        display: 'flex',
+        flex: 1,
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        backgroundColor: 'black',
+        paddingTop: 65,
+        paddingBottom: 40,
     },
     content: {
         display: 'flex',
