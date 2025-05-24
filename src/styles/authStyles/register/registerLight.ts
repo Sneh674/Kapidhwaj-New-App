@@ -1,10 +1,22 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
+    scrollContainer: {
+        flexGrow: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        // paddingVertical: 20,
+        backgroundColor: 'blue',
+        width: '100%',
+    },
     container: {
         flex: 1,
+        flexGrow: 1,
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor: 'blue',
+        width: '100%',
+        padding: '5%',
     },
     registerCard: {
         width: '90%',
@@ -97,7 +109,7 @@ export const styles = StyleSheet.create({
     },
     lineBesideOr: {
         backgroundColor: '#eee',
-        width: 110,
+        width: '35%',
         height: 2,
     },
 });

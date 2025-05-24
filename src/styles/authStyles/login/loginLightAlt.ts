@@ -1,17 +1,20 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-    '*': {
-        opacity: 1,
-        color: '#000',
-        padding: 0,
-        margin: 0,
+    scrollContainer: {
+        flexGrow: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        // paddingVertical: 20,
+        // backgroundColor: 'rgba(255, 255, 255, 0)',
+        width: '100%',
     },
     container: {
         flex: 1,
-        width: '100%',
+        flexGrow: 1,
         alignItems: 'center',
         justifyContent: 'center',
+        width: '100%',
     },
     gradientContainer: {
         flex: 1,
@@ -20,7 +23,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     loginCard: {
-        width: '85%',
+        width: '90%',
         backgroundColor: 'rgba(255, 255, 255, 0.5)',
         borderRadius: 36,
         padding: 40,
@@ -46,6 +49,7 @@ export const styles = StyleSheet.create({
         paddingVertical: 10,
         fontSize: 14,
         backgroundColor: '#fff',
+        maxHeight: 45,
     },
     passwordRow: {
         flexDirection: 'row',
@@ -105,7 +109,7 @@ export const styles = StyleSheet.create({
     },
     lineBesideOr: {
         backgroundColor: '#eee',
-        width: 110,
+        width: '35%',
         height: 2,
     },
 });

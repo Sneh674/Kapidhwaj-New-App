@@ -1,16 +1,26 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
+    scrollContainer: {
+        flexGrow: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        // paddingVertical: 20,
+        backgroundColor: 'white',
+        width: '100%',
+    },
     container: {
         display: 'flex',
         flex: 1,
+        flexGrow: 1,
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'space-between',
+        // borderRightColor: 'blue',
         // paddingTop: 65,
         // paddingBottom: 40,
-        backgroundColor: '#f5f5f5',
-        paddingHorizontal: 20,
+        backgroundColor: 'white',
+        // paddingHorizontal: 20,
     },
     gradientContainer: {
         display: 'flex',
@@ -21,6 +31,7 @@ export const styles = StyleSheet.create({
         backgroundColor: 'white',
         paddingTop: 65,
         paddingBottom: 40,
+        paddingHorizontal: 20,
     },
     content: {
         display: 'flex',

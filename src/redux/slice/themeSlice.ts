@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
     theme: 'light',
-}
+};
 
 export const themeSlice = createSlice({
     name: 'theme',
@@ -14,6 +14,12 @@ export const themeSlice = createSlice({
         },
         darkMode: (state) => {
             state.theme = 'dark';
+        },
+        lightAltMode: (state) => {
+            state.theme = 'lightAlt';
+        },
+        darkAltMode: (state) => {
+            state.theme = 'darkAlt';
         },
     },
 });

@@ -1,11 +1,21 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
+    scrollContainer: {
+        flexGrow: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        // paddingVertical: 20,
+        // backgroundColor: 'rgba(255, 255, 255, 0)',
+        width: '100%',
+    },
     container: {
         flex: 1,
+        flexGrow: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#000', // dark background
+        width: '100%',
+        padding: '5%',
     },
     gradientContainer: {
         flex: 1,
