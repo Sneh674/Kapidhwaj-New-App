@@ -38,7 +38,17 @@ const MainScreensTab = () => {
     const styles = StyleSheet.create(tempStyles);
 
     return (
-        <Tab.Navigator screenOptions={{ headerShown: false, tabBarShowLabel: false, tabBarStyle: styles.tabBar, }}
+        <Tab.Navigator screenOptions={{
+            headerShown: false,
+            tabBarShowLabel: false,
+            tabBarStyle: [styles.tabBar,
+            {
+                borderTopWidth: 0,         // removes the top border
+                elevation: 0,              // Android shadow
+                shadowColor: 'transparent', // iOS shadow
+            },
+            ],
+        }}
         >
             <Tab.Screen name="Home" component={Home}
                 options={{
